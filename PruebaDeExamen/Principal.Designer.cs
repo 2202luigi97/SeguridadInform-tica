@@ -28,350 +28,361 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEncryptText = new System.Windows.Forms.Button();
-            this.btnencrypFolder = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pderecho = new System.Windows.Forms.Panel();
-            this.tbcontrol = new System.Windows.Forms.TabControl();
-            this.tbpageWelcome = new System.Windows.Forms.TabPage();
-            this.tbpageFolder = new System.Windows.Forms.TabPage();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btndesencriptarFolder = new System.Windows.Forms.Button();
-            this.btnEncriptarFolder = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.txtFolder = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tbpageText = new System.Windows.Forms.TabPage();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnDesencriptar = new System.Windows.Forms.Button();
-            this.btnEncriptar = new System.Windows.Forms.Button();
-            this.txtText = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.pderecho.SuspendLayout();
-            this.tbcontrol.SuspendLayout();
-            this.tbpageWelcome.SuspendLayout();
-            this.tbpageFolder.SuspendLayout();
-            this.tbpageText.SuspendLayout();
-            this.SuspendLayout();
+            btnEncryptText = new Button();
+            btnencrypFolder = new Button();
+            label1 = new Label();
+            panel1 = new Panel();
+            pderecho = new Panel();
+            tbcontrol = new TabControl();
+            tbpageWelcome = new TabPage();
+            tbpageFolder = new TabPage();
+            btnCancelar = new Button();
+            btndesencriptarFolder = new Button();
+            btnEncriptarFolder = new Button();
+            btnSearch = new Button();
+            txtFolder = new TextBox();
+            label3 = new Label();
+            tbpageText = new TabPage();
+            btnClear = new Button();
+            btnDesencriptar = new Button();
+            btnEncriptar = new Button();
+            txtText = new TextBox();
+            label2 = new Label();
+            label4 = new Label();
+            panel1.SuspendLayout();
+            pderecho.SuspendLayout();
+            tbcontrol.SuspendLayout();
+            tbpageWelcome.SuspendLayout();
+            tbpageFolder.SuspendLayout();
+            tbpageText.SuspendLayout();
+            SuspendLayout();
             // 
             // btnEncryptText
             // 
-            this.btnEncryptText.BackColor = System.Drawing.Color.Transparent;
-            this.btnEncryptText.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEncryptText.FlatAppearance.BorderSize = 0;
-            this.btnEncryptText.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEncryptText.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnEncryptText.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEncryptText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEncryptText.Image = global::SeguridadInformática.Properties.Resources.MdiMessageOutline;
-            this.btnEncryptText.Location = new System.Drawing.Point(10, 103);
-            this.btnEncryptText.Name = "btnEncryptText";
-            this.btnEncryptText.Size = new System.Drawing.Size(60, 60);
-            this.btnEncryptText.TabIndex = 13;
-            this.btnEncryptText.UseVisualStyleBackColor = false;
-            this.btnEncryptText.Click += new System.EventHandler(this.btnDesencryp_Click);
+            btnEncryptText.BackColor = Color.Transparent;
+            btnEncryptText.Cursor = Cursors.Hand;
+            btnEncryptText.FlatAppearance.BorderSize = 0;
+            btnEncryptText.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnEncryptText.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnEncryptText.FlatStyle = FlatStyle.Flat;
+            btnEncryptText.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEncryptText.Image = SeguridadInformática.Properties.Resources.MdiMessageOutline;
+            btnEncryptText.Location = new Point(10, 103);
+            btnEncryptText.Name = "btnEncryptText";
+            btnEncryptText.Size = new Size(60, 60);
+            btnEncryptText.TabIndex = 13;
+            btnEncryptText.UseVisualStyleBackColor = false;
+            btnEncryptText.Click += btnDesencryp_Click;
             // 
             // btnencrypFolder
             // 
-            this.btnencrypFolder.BackColor = System.Drawing.Color.Transparent;
-            this.btnencrypFolder.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnencrypFolder.FlatAppearance.BorderSize = 0;
-            this.btnencrypFolder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnencrypFolder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnencrypFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnencrypFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnencrypFolder.Image = global::SeguridadInformática.Properties.Resources.MdiFolderLockOutline;
-            this.btnencrypFolder.Location = new System.Drawing.Point(10, 21);
-            this.btnencrypFolder.Name = "btnencrypFolder";
-            this.btnencrypFolder.Size = new System.Drawing.Size(60, 60);
-            this.btnencrypFolder.TabIndex = 12;
-            this.btnencrypFolder.UseVisualStyleBackColor = false;
-            this.btnencrypFolder.Click += new System.EventHandler(this.btnencryp_Click);
+            btnencrypFolder.BackColor = Color.Transparent;
+            btnencrypFolder.Cursor = Cursors.Hand;
+            btnencrypFolder.FlatAppearance.BorderSize = 0;
+            btnencrypFolder.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnencrypFolder.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnencrypFolder.FlatStyle = FlatStyle.Flat;
+            btnencrypFolder.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnencrypFolder.Image = SeguridadInformática.Properties.Resources.MdiFolderLockOutline;
+            btnencrypFolder.Location = new Point(10, 21);
+            btnencrypFolder.Name = "btnencrypFolder";
+            btnencrypFolder.Size = new Size(60, 60);
+            btnencrypFolder.TabIndex = 12;
+            btnencrypFolder.UseVisualStyleBackColor = false;
+            btnencrypFolder.Click += btnencryp_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(185)))), ((int)(((byte)(211)))));
-            this.label1.Location = new System.Drawing.Point(72, 76);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 37);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Bienvenido!";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.FromArgb(31, 185, 211);
+            label1.Location = new Point(72, 76);
+            label1.Name = "label1";
+            label1.Size = new Size(182, 37);
+            label1.TabIndex = 14;
+            label1.Text = "Bienvenido!";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.btnEncryptText);
-            this.panel1.Controls.Add(this.btnencrypFolder);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(85, 201);
-            this.panel1.TabIndex = 16;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            panel1.BackColor = Color.FromArgb(18, 32, 39);
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(btnEncryptText);
+            panel1.Controls.Add(btnencrypFolder);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(85, 201);
+            panel1.TabIndex = 16;
             // 
             // pderecho
             // 
-            this.pderecho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(203)))), ((int)(((byte)(216)))));
-            this.pderecho.Controls.Add(this.tbcontrol);
-            this.pderecho.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pderecho.Location = new System.Drawing.Point(85, 0);
-            this.pderecho.Name = "pderecho";
-            this.pderecho.Size = new System.Drawing.Size(327, 201);
-            this.pderecho.TabIndex = 17;
+            pderecho.BackColor = Color.FromArgb(198, 203, 216);
+            pderecho.Controls.Add(tbcontrol);
+            pderecho.Dock = DockStyle.Fill;
+            pderecho.Location = new Point(85, 0);
+            pderecho.Name = "pderecho";
+            pderecho.Size = new Size(327, 201);
+            pderecho.TabIndex = 17;
             // 
             // tbcontrol
             // 
-            this.tbcontrol.Controls.Add(this.tbpageWelcome);
-            this.tbcontrol.Controls.Add(this.tbpageFolder);
-            this.tbcontrol.Controls.Add(this.tbpageText);
-            this.tbcontrol.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbcontrol.ItemSize = new System.Drawing.Size(0, 1);
-            this.tbcontrol.Location = new System.Drawing.Point(0, 0);
-            this.tbcontrol.Name = "tbcontrol";
-            this.tbcontrol.SelectedIndex = 0;
-            this.tbcontrol.Size = new System.Drawing.Size(327, 201);
-            this.tbcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tbcontrol.TabIndex = 0;
-            this.tbcontrol.TabStop = false;
+            tbcontrol.Controls.Add(tbpageWelcome);
+            tbcontrol.Controls.Add(tbpageFolder);
+            tbcontrol.Controls.Add(tbpageText);
+            tbcontrol.Dock = DockStyle.Fill;
+            tbcontrol.ItemSize = new Size(0, 1);
+            tbcontrol.Location = new Point(0, 0);
+            tbcontrol.Name = "tbcontrol";
+            tbcontrol.SelectedIndex = 0;
+            tbcontrol.Size = new Size(327, 201);
+            tbcontrol.SizeMode = TabSizeMode.Fixed;
+            tbcontrol.TabIndex = 0;
+            tbcontrol.TabStop = false;
             // 
             // tbpageWelcome
             // 
-            this.tbpageWelcome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.tbpageWelcome.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tbpageWelcome.Controls.Add(this.label1);
-            this.tbpageWelcome.Location = new System.Drawing.Point(4, 5);
-            this.tbpageWelcome.Name = "tbpageWelcome";
-            this.tbpageWelcome.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpageWelcome.Size = new System.Drawing.Size(319, 192);
-            this.tbpageWelcome.TabIndex = 0;
+            tbpageWelcome.BackColor = Color.FromArgb(12, 48, 63);
+            tbpageWelcome.BorderStyle = BorderStyle.Fixed3D;
+            tbpageWelcome.Controls.Add(label4);
+            tbpageWelcome.Controls.Add(label1);
+            tbpageWelcome.Location = new Point(4, 5);
+            tbpageWelcome.Name = "tbpageWelcome";
+            tbpageWelcome.Padding = new Padding(3);
+            tbpageWelcome.Size = new Size(319, 192);
+            tbpageWelcome.TabIndex = 0;
             // 
             // tbpageFolder
             // 
-            this.tbpageFolder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.tbpageFolder.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tbpageFolder.Controls.Add(this.btnCancelar);
-            this.tbpageFolder.Controls.Add(this.btndesencriptarFolder);
-            this.tbpageFolder.Controls.Add(this.btnEncriptarFolder);
-            this.tbpageFolder.Controls.Add(this.btnSearch);
-            this.tbpageFolder.Controls.Add(this.txtFolder);
-            this.tbpageFolder.Controls.Add(this.label3);
-            this.tbpageFolder.Location = new System.Drawing.Point(4, 5);
-            this.tbpageFolder.Name = "tbpageFolder";
-            this.tbpageFolder.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpageFolder.Size = new System.Drawing.Size(319, 192);
-            this.tbpageFolder.TabIndex = 1;
+            tbpageFolder.BackColor = Color.FromArgb(12, 48, 63);
+            tbpageFolder.BorderStyle = BorderStyle.Fixed3D;
+            tbpageFolder.Controls.Add(btnCancelar);
+            tbpageFolder.Controls.Add(btndesencriptarFolder);
+            tbpageFolder.Controls.Add(btnEncriptarFolder);
+            tbpageFolder.Controls.Add(btnSearch);
+            tbpageFolder.Controls.Add(txtFolder);
+            tbpageFolder.Controls.Add(label3);
+            tbpageFolder.Location = new Point(4, 5);
+            tbpageFolder.Name = "tbpageFolder";
+            tbpageFolder.Padding = new Padding(3);
+            tbpageFolder.Size = new Size(319, 192);
+            tbpageFolder.TabIndex = 1;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.btnCancelar.FlatAppearance.BorderSize = 0;
-            this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.Image = global::SeguridadInformática.Properties.Resources.MdiBackspaceOutline1;
-            this.btnCancelar.Location = new System.Drawing.Point(70, 129);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(40, 40);
-            this.btnCancelar.TabIndex = 18;
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            btnCancelar.BackgroundImageLayout = ImageLayout.None;
+            btnCancelar.Cursor = Cursors.Hand;
+            btnCancelar.FlatAppearance.BorderColor = Color.FromArgb(12, 48, 63);
+            btnCancelar.FlatAppearance.BorderSize = 0;
+            btnCancelar.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnCancelar.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnCancelar.FlatStyle = FlatStyle.Flat;
+            btnCancelar.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancelar.Image = SeguridadInformática.Properties.Resources.MdiBackspaceOutline1;
+            btnCancelar.Location = new Point(70, 129);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(40, 40);
+            btnCancelar.TabIndex = 18;
+            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btndesencriptarFolder
             // 
-            this.btndesencriptarFolder.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btndesencriptarFolder.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.btndesencriptarFolder.FlatAppearance.BorderSize = 0;
-            this.btndesencriptarFolder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btndesencriptarFolder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btndesencriptarFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndesencriptarFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btndesencriptarFolder.Image = global::SeguridadInformática.Properties.Resources.MdiLockOpenVariantOutline1;
-            this.btndesencriptarFolder.Location = new System.Drawing.Point(210, 129);
-            this.btndesencriptarFolder.Name = "btndesencriptarFolder";
-            this.btndesencriptarFolder.Size = new System.Drawing.Size(40, 40);
-            this.btndesencriptarFolder.TabIndex = 17;
-            this.btndesencriptarFolder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btndesencriptarFolder.UseVisualStyleBackColor = true;
-            this.btndesencriptarFolder.Click += new System.EventHandler(this.btndesencriptarFolder_Click);
+            btndesencriptarFolder.Cursor = Cursors.Hand;
+            btndesencriptarFolder.FlatAppearance.BorderColor = Color.FromArgb(12, 48, 63);
+            btndesencriptarFolder.FlatAppearance.BorderSize = 0;
+            btndesencriptarFolder.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btndesencriptarFolder.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btndesencriptarFolder.FlatStyle = FlatStyle.Flat;
+            btndesencriptarFolder.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btndesencriptarFolder.Image = SeguridadInformática.Properties.Resources.MdiLockOpenVariantOutline1;
+            btndesencriptarFolder.Location = new Point(210, 129);
+            btndesencriptarFolder.Name = "btndesencriptarFolder";
+            btndesencriptarFolder.Size = new Size(40, 40);
+            btndesencriptarFolder.TabIndex = 17;
+            btndesencriptarFolder.TextAlign = ContentAlignment.MiddleRight;
+            btndesencriptarFolder.UseVisualStyleBackColor = true;
+            btndesencriptarFolder.Click += btndesencriptarFolder_Click;
             // 
             // btnEncriptarFolder
             // 
-            this.btnEncriptarFolder.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEncriptarFolder.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.btnEncriptarFolder.FlatAppearance.BorderSize = 0;
-            this.btnEncriptarFolder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEncriptarFolder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnEncriptarFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEncriptarFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEncriptarFolder.Image = global::SeguridadInformática.Properties.Resources.MdiLockOutline1;
-            this.btnEncriptarFolder.Location = new System.Drawing.Point(140, 129);
-            this.btnEncriptarFolder.Name = "btnEncriptarFolder";
-            this.btnEncriptarFolder.Size = new System.Drawing.Size(40, 40);
-            this.btnEncriptarFolder.TabIndex = 16;
-            this.btnEncriptarFolder.UseVisualStyleBackColor = true;
-            this.btnEncriptarFolder.Click += new System.EventHandler(this.btnEncriptarFolder_Click);
+            btnEncriptarFolder.Cursor = Cursors.Hand;
+            btnEncriptarFolder.FlatAppearance.BorderColor = Color.FromArgb(12, 48, 63);
+            btnEncriptarFolder.FlatAppearance.BorderSize = 0;
+            btnEncriptarFolder.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnEncriptarFolder.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnEncriptarFolder.FlatStyle = FlatStyle.Flat;
+            btnEncriptarFolder.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEncriptarFolder.Image = SeguridadInformática.Properties.Resources.MdiLockOutline1;
+            btnEncriptarFolder.Location = new Point(140, 129);
+            btnEncriptarFolder.Name = "btnEncriptarFolder";
+            btnEncriptarFolder.Size = new Size(40, 40);
+            btnEncriptarFolder.TabIndex = 16;
+            btnEncriptarFolder.UseVisualStyleBackColor = true;
+            btnEncriptarFolder.Click += btnEncriptarFolder_Click;
             // 
             // btnSearch
             // 
-            this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSearch.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(203)))), ((int)(((byte)(216)))));
-            this.btnSearch.FlatAppearance.BorderSize = 0;
-            this.btnSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSearch.Image = global::SeguridadInformática.Properties.Resources.MdiFolderSearchOutline;
-            this.btnSearch.Location = new System.Drawing.Point(269, 63);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(40, 40);
-            this.btnSearch.TabIndex = 15;
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            btnSearch.Cursor = Cursors.Hand;
+            btnSearch.FlatAppearance.BorderColor = Color.FromArgb(198, 203, 216);
+            btnSearch.FlatAppearance.BorderSize = 0;
+            btnSearch.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnSearch.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnSearch.FlatStyle = FlatStyle.Flat;
+            btnSearch.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSearch.Image = SeguridadInformática.Properties.Resources.MdiFolderSearchOutline;
+            btnSearch.Location = new Point(269, 63);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(40, 40);
+            btnSearch.TabIndex = 15;
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // txtFolder
             // 
-            this.txtFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFolder.Location = new System.Drawing.Point(13, 70);
-            this.txtFolder.Name = "txtFolder";
-            this.txtFolder.Size = new System.Drawing.Size(252, 26);
-            this.txtFolder.TabIndex = 14;
+            txtFolder.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtFolder.Location = new Point(13, 70);
+            txtFolder.Name = "txtFolder";
+            txtFolder.Size = new Size(252, 26);
+            txtFolder.TabIndex = 14;
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(185)))), ((int)(((byte)(211)))));
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(6, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(303, 48);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "*Seleccione la carpeta";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            label3.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.FromArgb(31, 185, 211);
+            label3.ImageAlign = ContentAlignment.MiddleRight;
+            label3.Location = new Point(6, 3);
+            label3.Name = "label3";
+            label3.Size = new Size(303, 48);
+            label3.TabIndex = 13;
+            label3.Text = "*Seleccione la carpeta";
+            label3.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // tbpageText
             // 
-            this.tbpageText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.tbpageText.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tbpageText.Controls.Add(this.btnClear);
-            this.tbpageText.Controls.Add(this.btnDesencriptar);
-            this.tbpageText.Controls.Add(this.btnEncriptar);
-            this.tbpageText.Controls.Add(this.txtText);
-            this.tbpageText.Controls.Add(this.label2);
-            this.tbpageText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(185)))), ((int)(((byte)(211)))));
-            this.tbpageText.Location = new System.Drawing.Point(4, 5);
-            this.tbpageText.Name = "tbpageText";
-            this.tbpageText.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpageText.Size = new System.Drawing.Size(319, 192);
-            this.tbpageText.TabIndex = 2;
+            tbpageText.BackColor = Color.FromArgb(12, 48, 63);
+            tbpageText.BorderStyle = BorderStyle.Fixed3D;
+            tbpageText.Controls.Add(btnClear);
+            tbpageText.Controls.Add(btnDesencriptar);
+            tbpageText.Controls.Add(btnEncriptar);
+            tbpageText.Controls.Add(txtText);
+            tbpageText.Controls.Add(label2);
+            tbpageText.ForeColor = Color.FromArgb(31, 185, 211);
+            tbpageText.Location = new Point(4, 5);
+            tbpageText.Name = "tbpageText";
+            tbpageText.Padding = new Padding(3);
+            tbpageText.Size = new Size(319, 192);
+            tbpageText.TabIndex = 2;
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.Transparent;
-            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.btnClear.FlatAppearance.BorderSize = 0;
-            this.btnClear.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnClear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnClear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnClear.Image = global::SeguridadInformática.Properties.Resources.MdiBackspaceOutline2;
-            this.btnClear.Location = new System.Drawing.Point(70, 129);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(40, 40);
-            this.btnClear.TabIndex = 16;
-            this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            btnClear.BackColor = Color.Transparent;
+            btnClear.Cursor = Cursors.Hand;
+            btnClear.FlatAppearance.BorderColor = Color.FromArgb(12, 48, 63);
+            btnClear.FlatAppearance.BorderSize = 0;
+            btnClear.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnClear.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnClear.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnClear.FlatStyle = FlatStyle.Flat;
+            btnClear.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnClear.Image = SeguridadInformática.Properties.Resources.MdiBackspaceOutline2;
+            btnClear.Location = new Point(70, 129);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(40, 40);
+            btnClear.TabIndex = 16;
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // btnDesencriptar
             // 
-            this.btnDesencriptar.BackColor = System.Drawing.Color.Transparent;
-            this.btnDesencriptar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDesencriptar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.btnDesencriptar.FlatAppearance.BorderSize = 0;
-            this.btnDesencriptar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnDesencriptar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnDesencriptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnDesencriptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDesencriptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDesencriptar.Image = global::SeguridadInformática.Properties.Resources.MdiLockOpenVariantOutline2;
-            this.btnDesencriptar.Location = new System.Drawing.Point(210, 129);
-            this.btnDesencriptar.Name = "btnDesencriptar";
-            this.btnDesencriptar.Size = new System.Drawing.Size(40, 40);
-            this.btnDesencriptar.TabIndex = 15;
-            this.btnDesencriptar.UseVisualStyleBackColor = false;
-            this.btnDesencriptar.Click += new System.EventHandler(this.btnDesencriptar_Click);
+            btnDesencriptar.BackColor = Color.Transparent;
+            btnDesencriptar.Cursor = Cursors.Hand;
+            btnDesencriptar.FlatAppearance.BorderColor = Color.FromArgb(12, 48, 63);
+            btnDesencriptar.FlatAppearance.BorderSize = 0;
+            btnDesencriptar.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnDesencriptar.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnDesencriptar.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnDesencriptar.FlatStyle = FlatStyle.Flat;
+            btnDesencriptar.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnDesencriptar.Image = SeguridadInformática.Properties.Resources.MdiLockOpenVariantOutline2;
+            btnDesencriptar.Location = new Point(210, 129);
+            btnDesencriptar.Name = "btnDesencriptar";
+            btnDesencriptar.Size = new Size(40, 40);
+            btnDesencriptar.TabIndex = 15;
+            btnDesencriptar.UseVisualStyleBackColor = false;
+            btnDesencriptar.Click += btnDesencriptar_Click;
             // 
             // btnEncriptar
             // 
-            this.btnEncriptar.BackColor = System.Drawing.Color.Transparent;
-            this.btnEncriptar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEncriptar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
-            this.btnEncriptar.FlatAppearance.BorderSize = 0;
-            this.btnEncriptar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnEncriptar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEncriptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnEncriptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEncriptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEncriptar.Image = global::SeguridadInformática.Properties.Resources.MdiLockOutline2;
-            this.btnEncriptar.Location = new System.Drawing.Point(140, 129);
-            this.btnEncriptar.Name = "btnEncriptar";
-            this.btnEncriptar.Size = new System.Drawing.Size(40, 40);
-            this.btnEncriptar.TabIndex = 14;
-            this.btnEncriptar.UseVisualStyleBackColor = false;
-            this.btnEncriptar.Click += new System.EventHandler(this.btnEncriptar_Click);
+            btnEncriptar.BackColor = Color.Transparent;
+            btnEncriptar.Cursor = Cursors.Hand;
+            btnEncriptar.FlatAppearance.BorderColor = Color.FromArgb(12, 48, 63);
+            btnEncriptar.FlatAppearance.BorderSize = 0;
+            btnEncriptar.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnEncriptar.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnEncriptar.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnEncriptar.FlatStyle = FlatStyle.Flat;
+            btnEncriptar.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEncriptar.Image = SeguridadInformática.Properties.Resources.MdiLockOutline2;
+            btnEncriptar.Location = new Point(140, 129);
+            btnEncriptar.Name = "btnEncriptar";
+            btnEncriptar.Size = new Size(40, 40);
+            btnEncriptar.TabIndex = 14;
+            btnEncriptar.UseVisualStyleBackColor = false;
+            btnEncriptar.Click += btnEncriptar_Click;
             // 
             // txtText
             // 
-            this.txtText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtText.Location = new System.Drawing.Point(13, 55);
-            this.txtText.Multiline = true;
-            this.txtText.Name = "txtText";
-            this.txtText.Size = new System.Drawing.Size(285, 58);
-            this.txtText.TabIndex = 13;
+            txtText.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtText.Location = new Point(13, 55);
+            txtText.Multiline = true;
+            txtText.Name = "txtText";
+            txtText.Size = new Size(285, 58);
+            txtText.TabIndex = 13;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label2.Location = new System.Drawing.Point(6, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(304, 48);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "*Escriba en el cuadro de texto";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            label2.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ImageAlign = ContentAlignment.MiddleRight;
+            label2.Location = new Point(6, 3);
+            label2.Name = "label2";
+            label2.Size = new Size(304, 48);
+            label2.TabIndex = 12;
+            label2.Text = "*Escriba en el cuadro de texto";
+            label2.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.FromArgb(31, 185, 211);
+            label4.Location = new Point(186, 172);
+            label4.Name = "label4";
+            label4.Size = new Size(123, 13);
+            label4.TabIndex = 15;
+            label4.Text = "Luis Ariel Cuadra Salinas";
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 201);
-            this.Controls.Add(this.pderecho);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.Name = "Principal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Principal";
-            this.panel1.ResumeLayout(false);
-            this.pderecho.ResumeLayout(false);
-            this.tbcontrol.ResumeLayout(false);
-            this.tbpageWelcome.ResumeLayout(false);
-            this.tbpageWelcome.PerformLayout();
-            this.tbpageFolder.ResumeLayout(false);
-            this.tbpageFolder.PerformLayout();
-            this.tbpageText.ResumeLayout(false);
-            this.tbpageText.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(412, 201);
+            Controls.Add(pderecho);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            Name = "Principal";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Principal";
+            panel1.ResumeLayout(false);
+            pderecho.ResumeLayout(false);
+            tbcontrol.ResumeLayout(false);
+            tbpageWelcome.ResumeLayout(false);
+            tbpageWelcome.PerformLayout();
+            tbpageFolder.ResumeLayout(false);
+            tbpageFolder.PerformLayout();
+            tbpageText.ResumeLayout(false);
+            tbpageText.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -396,5 +407,6 @@
         private Label label2;
         private Button btnCancelar;
         private Button btnClear;
+        private Label label4;
     }
 }

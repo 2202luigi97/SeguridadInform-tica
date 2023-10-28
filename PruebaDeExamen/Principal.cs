@@ -20,7 +20,7 @@ namespace PruebaDeExamen
 {
     public partial class Principal : Form
     {
-       
+
         public Principal()
         {
             InitializeComponent();
@@ -90,9 +90,10 @@ namespace PruebaDeExamen
                     {
                         Encrypt.EncryptFile(archivo, archivo + ".exe", "SeguridadInformaticaUnivalle");
                         File.Delete(archivo);
-                        txtFolder.Clear();
-                        MessageBox.Show("Carpeta Encriptada con Exito", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                              
                     }
+                    txtFolder.Clear();
+                    MessageBox.Show("Carpeta Encriptada con Exito", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
@@ -116,10 +117,11 @@ namespace PruebaDeExamen
                     {
                         string ArchivoSinExtencion = Path.GetFileNameWithoutExtension(archivo);
                         Encrypt.DecryptFile(archivo, Path.Combine(txtFolder.Text, ArchivoSinExtencion), "SeguridadInformaticaUnivalle");
-                        File.Delete(archivo);
-                        txtFolder.Clear();
-                        MessageBox.Show("Carpeta Desencriptada con Exito", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        File.Delete(archivo);                     
+                                           
                     }
+                    txtFolder.Clear();
+                    MessageBox.Show("Carpeta Desencriptada con Exito", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
@@ -139,6 +141,7 @@ namespace PruebaDeExamen
                 MessageBox.Show("Información Encriptada con Exito", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else { MessageBox.Show("Ingrese el Texto", "", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+
         }
 
         private void btnDesencriptar_Click(object sender, EventArgs e)
@@ -149,11 +152,6 @@ namespace PruebaDeExamen
                 MessageBox.Show("Información Desencriptada con Exito", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else { MessageBox.Show("Ingrese el Texto", "", MessageBoxButtons.OK, MessageBoxIcon.Error); }
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
